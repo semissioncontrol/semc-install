@@ -1,2 +1,2 @@
 install:
-  bash -c "$(curl -fsSL https://semissioncontrol.github.io/install.sh)"
+	bash -c "$(curl -fsSL https://semissioncontrol.github.io/install.sh)"
