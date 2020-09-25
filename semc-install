@@ -1,2 +1,7 @@
 #!/bin/bash
-bash -c "$(curl -fsSL https://semissioncontrol.github.io/install.sh)"
+case $1 in
+  install) bash -c "$(curl -fsSL https://semissioncontrol.github.io/install.sh)"
+  i) bash -c "$(curl -fsSL https://semissioncontrol.github.io/install.sh)"
+  version) echo "0.0.8"
+  v) echo "0.0.8"
+  *) echo "SEMC installer 0.0.8"
