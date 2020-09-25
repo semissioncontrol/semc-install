@@ -4,4 +4,4 @@ case $1 in
   i) bash -c "$(curl -fsSL https://semissioncontrol.github.io/install.sh)"
   version) echo "0.0.8"
   v) echo "0.0.8"
-  *) echo "SEMC installer 0.0.8"
+  *) echo "SEMC installer 0.0.8\nRun `$0 install` to install"
