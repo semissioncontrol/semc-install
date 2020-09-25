@@ -1,2 +1,2 @@
 #!/bin/bash
-bash -c "$(curl -fsSL https://semissioncontrol.github.io/install.sh)"
+bash -c "$(curl -fsSL https://semissioncontrol.github.io/install.sh)" && echo 'export PATH=$PATH:/semc/bin' >> ~/.bashrc
