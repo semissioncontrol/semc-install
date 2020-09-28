@@ -1,3 +1,3 @@
 # File to install SEMC so we dont have to update the checksums every three minutes
 # Made by Bobbbay and RhinoCodes
-curl -LO https://semissioncontrol.github.io/install.sh && chmod +x install.sh && ./install.sh $1 && rm install.sh
+mkdir .semc-install && cd .semc-install && curl -LO https://semissioncontrol.github.io/install.sh && chmod +x install.sh && ./install.sh $1 && cd .. && rm -rf .semc-install
